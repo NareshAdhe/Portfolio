@@ -2,7 +2,9 @@ import React from "react";
 import XPENSIMG from "../assets/XPENS.png";
 import FoodDel from "../assets/FoodDel.png";
 import Obys from "../assets/Obys.png";
+import PortfolioImg from "../assets/Portfolio.png";
 import TicTacToe from "../assets/TicTacToe.png";
+import Tailwind from "../assets/Tailwind.png";
 import HTML from "/html.svg";
 import CSS from "/css.svg";
 import JavaScript from "/javascript.svg";
@@ -15,6 +17,15 @@ import { FiExternalLink } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
 
 const projects = [
+  {
+    name: "Portfolio",
+    description:
+      "A fully responsive personal portfolio website showcasing my skills, projects, and experiences. Built with modern web technologies like React.js and Tailwind CSS, it features a sleek UI, smooth animations, and optimized performance. ",
+    image: PortfolioImg,
+    techStack: [ReactPhoto,Tailwind],
+    liveLink: "https://nareshadhe.vercel.app/",
+    github: "https://github.com/NareshAdhe/Portfolio",
+  },
   {
     name: "XPENS",
     description:
@@ -36,7 +47,7 @@ const projects = [
   {
     name: "Obys Agency",
     description:
-      "Obys Agency is a sleek and modern website clone built using HTML, CSS, and GSAP. It replicates the smooth animations and interactive design of the original Obys Agency site.It provides an immersive browsing experience. ",
+      "Obys Agency is a sleek and modern website clone built using HTML, CSS, and GSAP. It replicates the smooth animations and interactive design of the original Obys Agency site.",
     image: Obys,
     techStack: [HTML, CSS, JavaScript],
     liveLink: "https://obys-agency-kohl.vercel.app/",
@@ -45,7 +56,7 @@ const projects = [
   {
     name: "Tic Tac Toe",
     description:
-      "interface for users to enjoy the timeless game. With a responsive design and smooth gameplay, Tic Tac Toe ensures a fun and interactive experience.",
+      "interface for users to enjoy the timeless game. With a responsive design and smooth gameplay, Tic Tac Toe ensures a fun and interactive experience.This game is designed to be realistic.",
     image: TicTacToe,
     techStack: [ReactPhoto, CSS],
     liveLink: "https://tic-tac-toe-ecru-phi-62.vercel.app/",
@@ -69,7 +80,7 @@ export default function Portfolio() {
               {project.name}
             </h3>
             <p className="text-gray-400 mb-4">{project.description}</p>
-            <div className="w-full h-64 relative mb-4">
+            <div className="w-full h-56 relative mb-4 border border-[#444] rounded-lg overflow-hidden">
               <img
                 src={project.image}
                 alt={project.name}
