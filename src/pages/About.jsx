@@ -40,7 +40,7 @@ const About = () => {
       <div className="h-full sm:h-fit w-full sm:w-[50vw] flex flex-col items-center justify-center p-8 text-white border-2 border-[#333] rounded-2xl backdrop-blur-sm">
         <div className="flex gap-6 mb-8 ">
           <button
-            className={`text-lg font-semibold py-2 px-3 rounded-lg ${
+            className={`text-lg font-semibold py-2 px-3 rounded-lg cursor-pointer ${
               activeSection === "about"
                 ? "bg-[#ffae00] text-black"
                 : "bg-transparent text-[#ffae00] border-2 border-[#ffae00]"
@@ -50,7 +50,7 @@ const About = () => {
             About Me
           </button>
           <button
-            className={`text-lg font-semibold py-2 px-3 rounded-lg ${
+            className={`text-lg font-semibold py-2 px-3 rounded-lg cursor-pointer ${
               activeSection === "education"
                 ? "bg-[#ffae00] text-black"
                 : "bg-transparent text-[#ffae00] border-2 border-[#ffae00]"
