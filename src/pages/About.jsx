@@ -37,7 +37,7 @@ const About = () => {
 
   return (
     <div className="flex items-center justify-center h-full w-full pt-8 px-4 pb-20">
-      <div className="h-full sm:h-fit w-full sm:w-[50vw] flex flex-col items-center justify-center p-8 text-white border-2 border-[#333] rounded-2xl backdrop-blur-sm">
+      <div className="h-full sm:h-fit max-w-5xl flex flex-col items-center justify-center p-8 text-white border-2 border-[#333] rounded-2xl backdrop-blur-sm">
         <div className="flex gap-6 mb-8 ">
           <button
             className={`text-lg font-semibold py-2 px-3 rounded-lg cursor-pointer ${
