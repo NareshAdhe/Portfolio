@@ -14,6 +14,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Loader from "./components/Loader";
+import FireCursor from "./components/FireCursor";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -27,7 +28,7 @@ const App = () => {
   return (
     <>
       {loading && <Loader setLoading={setLoading} />}
-
+      <FireCursor />
       <video
         src={Background}
         autoPlay
@@ -35,7 +36,7 @@ const App = () => {
         loop
         className="fixed -z-10 left-0 top-0 w-full min-h-screen object-cover brightness-[60%]"
       />
-      <div className="h-full w-full">
+      <div className="h-full w-full z-10">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
