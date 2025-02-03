@@ -46,7 +46,7 @@ const Home = () => {
                 View My Work
               </Link>
               <a
-                href="https://nareshadhe.vercel.app/Naresh-Resume.pdf"
+                href="/Naresh-Resume.pdf"
                 download="Naresh-Resume.pdf"
                 className="overflow-hidden relative bg-[#000] hover:bg-[#111111] font-bold text-white text-lg py-3 px-8 rounded-lg shadow-lg transition-all duration-300 flex items-center gap-2 justify-center"
               >
