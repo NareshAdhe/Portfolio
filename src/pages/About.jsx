@@ -14,6 +14,7 @@ import Express from "/express.svg";
 import Framer from "../assets/framer.png";
 import Mysql from "/mysql.svg";
 import Mongo from "/mongo.svg";
+import Linux from "/linux.svg";
 
 const skills = [
   { src: C, name: "C" },
@@ -26,6 +27,7 @@ const skills = [
   { src: Tailwind, name: "Tailwind" },
   { src: Mongo, name: "MongoDB" },
   { src: Mysql, name: "MySQL" },
+  { src: Linux, name: "Linux" },
   { src: Docker, name: "Docker" },
   { src: Express, name: "Express" },
   { src: Framer, name: "Framer" },
@@ -37,7 +39,7 @@ const About = () => {
 
   return (
     <div className="flex items-center justify-center h-full w-full pt-8 px-4 pb-20">
-      <div className="h-full sm:h-fit max-w-5xl flex flex-col items-center justify-center p-8 text-white border-2 border-[#333] rounded-2xl backdrop-blur-sm">
+      <div className="h-full sm:h-fit max-w-6xl flex flex-col items-center justify-center p-8 text-white border-2 border-[#333] rounded-2xl backdrop-blur-sm">
         <div className="flex gap-6 mb-8 ">
           <button
             className={`text-lg font-semibold py-2 px-3 rounded-lg cursor-pointer ${
