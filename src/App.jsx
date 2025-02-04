@@ -28,7 +28,6 @@ const App = () => {
   return (
     <>
       {loading && <Loader setLoading={setLoading} />}
-      <FireCursor />
       <video
         src={Background}
         autoPlay
