@@ -14,7 +14,6 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Loader from "./components/Loader";
-import FireCursor from "./components/FireCursor";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
