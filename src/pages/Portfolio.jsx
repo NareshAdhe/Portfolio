@@ -4,7 +4,7 @@ import FoodDel from "../assets/FoodDel.png";
 import Obys from "../assets/Obys.png";
 import PortfolioImg from "../assets/Portfolio.png";
 import TicTacToe from "../assets/TicTacToe.png";
-import Tailwind from "../assets/Tailwind.png";
+import Tailwind from "/Tailwind.svg";
 import HTML from "/html.svg";
 import CSS from "/css.svg";
 import JavaScript from "/javascript.svg";
