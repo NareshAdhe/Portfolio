@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Photo from "../assets/Photo.jpg";
 import C from "/c.svg";
 import Cpp from "/cpp.svg";
@@ -8,17 +8,20 @@ import JavaScript from "/javascript.svg";
 import ReactPhoto from "/react.svg";
 import Node from "/node.svg";
 import Tailwind from "/tailwind.svg";
-import Postman from "../assets/postman.png";
+import Postman from "/postman.svg";
 import Docker from "/docker.svg";
 import Express from "/express.svg";
-import Framer from "../assets/framer.png";
 import Mysql from "/mysql.svg";
 import Mongo from "/mongo.svg";
 import Linux from "/linux.svg";
+import Python from "/python.svg";
+import numpy from "/numpy.svg";
+import Pandas from "/pandas.svg";
 
 const skills = [
   { src: C, name: "C" },
   { src: Cpp, name: "C++" },
+  { src: Python, name: "Python" },
   { src: HTML, name: "HTML" },
   { src: CSS, name: "CSS" },
   { src: JavaScript, name: "JavaScript" },
@@ -26,11 +29,12 @@ const skills = [
   { src: Node, name: "Node.js" },
   { src: Tailwind, name: "Tailwind" },
   { src: Mongo, name: "MongoDB" },
+  { src: Express, name: "Express" },
   { src: Mysql, name: "MySQL" },
   { src: Linux, name: "Linux" },
   { src: Docker, name: "Docker" },
-  { src: Express, name: "Express" },
-  { src: Framer, name: "Framer" },
+  { src: numpy, name: "NumPy" },
+  { src: Pandas, name: "Pandas" },
   { src: Postman, name: "Postman" },
 ];
 
@@ -111,7 +115,7 @@ const About = () => {
                 <p className="text-lg font-semibold text-gray-200 mb-4">
                   Computer Science Engineering
                 </p>
-                <p className="text-lg font-semibold text-gray-300">CGPA: 9.03</p>
+                <p className="text-lg font-semibold text-gray-300">CGPA: 9.09</p>
                 <span className="text-gray-300">2023 - 2027</span>
               </div>
 
